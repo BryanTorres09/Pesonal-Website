@@ -1,0 +1,180 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+.transition-fade1 {
+    height: 50px;
+    background: linear-gradient(#28364f, #9c9fa4); /* From hero to project */
+  }
+  
+  .transition-fade2 {
+    height: 50px;
+    background: linear-gradient(#9c9fa4, #5f2128 ); /* From hero to project */
+  }
+
+  .transition-fade3 {
+    height: 50px;
+    background: linear-gradient(#5f2128, #9c9fa4); /* From hero to project */
+  }
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+   
+  }
+
+   h1 {
+    font-size: 60px;
+    font-weight: bold;
+   
+}
+
+p {
+    font-size: 20px;
+    font-weight: normal;
+  
+}
+
+/* nav */
+.navbar-wrapper {
+    background-color: rgba(40, 54, 79, 0.95);
+    backdrop-filter: blur(8px);
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  /* Optional: Add a little hover effect */
+  .nav-link {
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #fff;
+    color: #28364f !important;
+  }
+  
+
+
+.navbar a {
+
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    font-weight: bolder;
+    padding: 10px 20px;
+}
+
+.navbar a:hover {
+    background-color: #fff;
+    color: #66D2CE;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+
+/* Style for the main content area */
+.herobeck {
+  
+    background: url(./assets/images/sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+   
+    
+}
+
+.hero h1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ff9500;
+    padding: 10px;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px black;
+    
+}
+
+.hero p {
+    background-color: rgba(0, 0, 0, 0.6);
+  color: #ff9500;
+  padding: 10px;
+  border-radius: 8px;
+  text-shadow: 1px 1px 3px black;
+    
+}
+
+.btn1 {
+    border-radius: 20px;
+    background-color: #54a065;
+    color: #fff;
+    font-size: large;
+}
+
+/* footer */
+
+.f {
+
+    background-color: #E3D2C3;
+    padding: 8px;
+}
+footer p {
+   
+    color: black;
+    
+}
+
+/* Project section */
+
+
+.projects { 
+    
+    background-color:#9c9fa4;
+ 
+    
+    
+}
+
+
+
+
+/* about me */
+
+.aboutme {
+   
+    background-color: #5f2128;
+
+
+}
+
+
+.about {
+    
+    text-align: center;
+    color: #f2f2f2;
+   
+}
+
+.about p {
+    text-align: left;
+    color: #f2f2f2;
+ 
+}
+.about2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* contact me */
+
+.contact {
+
+    background-color: #9c9fa4;
+    padding-bottom: 50px;
+}
